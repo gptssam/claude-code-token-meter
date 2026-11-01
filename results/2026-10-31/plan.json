@@ -1,0 +1,1288 @@
+{
+ "meta": {
+  "started": "2026-10-31T08:05:17",
+  "claude_version": "2.1.314 (Claude Code)",
+  "model_arg": "claude-opus-5-5",
+  "isolate": true,
+  "seed": 20261031,
+  "repeats": 3,
+  "sets": [
+   "questions",
+   "tasks"
+  ],
+  "calls": {
+   "measured": 156,
+   "activation": 78,
+   "preflight": 4,
+   "total_cli_calls": 238,
+   "skill_conditions": [
+    "C",
+    "D"
+   ]
+  },
+  "skills": {
+   "caveman": {
+    "repo": "JuliusBrussee/caveman",
+    "ref": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4",
+    "path": "skills/caveman/SKILL.md",
+    "sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b"
+   },
+   "ultracave": {
+    "repo": "JuliusBrussee/caveman",
+    "ref": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4",
+    "path": "skills/ultracave/SKILL.md",
+    "sha256": "a8da5b0b3501b853e1b98f2ae09fe8dc9c0edf481b1d3fa9529f8557011c1ef8"
+   }
+  }
+ },
+ "plan": [
+  {
+   "trial_id": "q_q08_A_3",
+   "set": "questions",
+   "item": "q08",
+   "cond": "A",
+   "rep": 3,
+   "order": 1
+  },
+  {
+   "trial_id": "t_t1_average_A_3",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "A",
+   "rep": 3,
+   "order": 2
+  },
+  {
+   "trial_id": "q_q07_C_2",
+   "set": "questions",
+   "item": "q07",
+   "cond": "C",
+   "rep": 2,
+   "order": 3
+  },
+  {
+   "trial_id": "q_q05_D_3",
+   "set": "questions",
+   "item": "q05",
+   "cond": "D",
+   "rep": 3,
+   "order": 4
+  },
+  {
+   "trial_id": "q_q04_D_1",
+   "set": "questions",
+   "item": "q04",
+   "cond": "D",
+   "rep": 1,
+   "order": 5
+  },
+  {
+   "trial_id": "q_q09_A_3",
+   "set": "questions",
+   "item": "q09",
+   "cond": "A",
+   "rep": 3,
+   "order": 6
+  },
+  {
+   "trial_id": "t_t1_average_D_2",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "D",
+   "rep": 2,
+   "order": 7
+  },
+  {
+   "trial_id": "q_q04_B_1",
+   "set": "questions",
+   "item": "q04",
+   "cond": "B",
+   "rep": 1,
+   "order": 8
+  },
+  {
+   "trial_id": "q_q10_C_1",
+   "set": "questions",
+   "item": "q10",
+   "cond": "C",
+   "rep": 1,
+   "order": 9
+  },
+  {
+   "trial_id": "q_q01_A_2",
+   "set": "questions",
+   "item": "q01",
+   "cond": "A",
+   "rep": 2,
+   "order": 10
+  },
+  {
+   "trial_id": "q_q07_B_2",
+   "set": "questions",
+   "item": "q07",
+   "cond": "B",
+   "rep": 2,
+   "order": 11
+  },
+  {
+   "trial_id": "q_q06_A_3",
+   "set": "questions",
+   "item": "q06",
+   "cond": "A",
+   "rep": 3,
+   "order": 12
+  },
+  {
+   "trial_id": "t_t3_csv_clean_B_2",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "B",
+   "rep": 2,
+   "order": 13
+  },
+  {
+   "trial_id": "q_q08_C_2",
+   "set": "questions",
+   "item": "q08",
+   "cond": "C",
+   "rep": 2,
+   "order": 14
+  },
+  {
+   "trial_id": "q_q05_D_1",
+   "set": "questions",
+   "item": "q05",
+   "cond": "D",
+   "rep": 1,
+   "order": 15
+  },
+  {
+   "trial_id": "q_q09_B_1",
+   "set": "questions",
+   "item": "q09",
+   "cond": "B",
+   "rep": 1,
+   "order": 16
+  },
+  {
+   "trial_id": "q_q06_A_1",
+   "set": "questions",
+   "item": "q06",
+   "cond": "A",
+   "rep": 1,
+   "order": 17
+  },
+  {
+   "trial_id": "q_q07_A_3",
+   "set": "questions",
+   "item": "q07",
+   "cond": "A",
+   "rep": 3,
+   "order": 18
+  },
+  {
+   "trial_id": "q_q08_C_1",
+   "set": "questions",
+   "item": "q08",
+   "cond": "C",
+   "rep": 1,
+   "order": 19
+  },
+  {
+   "trial_id": "q_q08_B_3",
+   "set": "questions",
+   "item": "q08",
+   "cond": "B",
+   "rep": 3,
+   "order": 20
+  },
+  {
+   "trial_id": "q_q02_A_2",
+   "set": "questions",
+   "item": "q02",
+   "cond": "A",
+   "rep": 2,
+   "order": 21
+  },
+  {
+   "trial_id": "q_q07_B_1",
+   "set": "questions",
+   "item": "q07",
+   "cond": "B",
+   "rep": 1,
+   "order": 22
+  },
+  {
+   "trial_id": "q_q03_A_3",
+   "set": "questions",
+   "item": "q03",
+   "cond": "A",
+   "rep": 3,
+   "order": 23
+  },
+  {
+   "trial_id": "q_q08_D_1",
+   "set": "questions",
+   "item": "q08",
+   "cond": "D",
+   "rep": 1,
+   "order": 24
+  },
+  {
+   "trial_id": "q_q10_B_2",
+   "set": "questions",
+   "item": "q10",
+   "cond": "B",
+   "rep": 2,
+   "order": 25
+  },
+  {
+   "trial_id": "q_q10_A_3",
+   "set": "questions",
+   "item": "q10",
+   "cond": "A",
+   "rep": 3,
+   "order": 26
+  },
+  {
+   "trial_id": "q_q10_D_1",
+   "set": "questions",
+   "item": "q10",
+   "cond": "D",
+   "rep": 1,
+   "order": 27
+  },
+  {
+   "trial_id": "q_q08_B_2",
+   "set": "questions",
+   "item": "q08",
+   "cond": "B",
+   "rep": 2,
+   "order": 28
+  },
+  {
+   "trial_id": "q_q03_D_2",
+   "set": "questions",
+   "item": "q03",
+   "cond": "D",
+   "rep": 2,
+   "order": 29
+  },
+  {
+   "trial_id": "q_q07_C_3",
+   "set": "questions",
+   "item": "q07",
+   "cond": "C",
+   "rep": 3,
+   "order": 30
+  },
+  {
+   "trial_id": "q_q04_C_2",
+   "set": "questions",
+   "item": "q04",
+   "cond": "C",
+   "rep": 2,
+   "order": 31
+  },
+  {
+   "trial_id": "q_q06_C_3",
+   "set": "questions",
+   "item": "q06",
+   "cond": "C",
+   "rep": 3,
+   "order": 32
+  },
+  {
+   "trial_id": "q_q02_B_3",
+   "set": "questions",
+   "item": "q02",
+   "cond": "B",
+   "rep": 3,
+   "order": 33
+  },
+  {
+   "trial_id": "t_t2_slugify_B_1",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "B",
+   "rep": 1,
+   "order": 34
+  },
+  {
+   "trial_id": "t_t2_slugify_C_1",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "C",
+   "rep": 1,
+   "order": 35
+  },
+  {
+   "trial_id": "t_t2_slugify_B_2",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "B",
+   "rep": 2,
+   "order": 36
+  },
+  {
+   "trial_id": "q_q04_A_2",
+   "set": "questions",
+   "item": "q04",
+   "cond": "A",
+   "rep": 2,
+   "order": 37
+  },
+  {
+   "trial_id": "q_q01_B_1",
+   "set": "questions",
+   "item": "q01",
+   "cond": "B",
+   "rep": 1,
+   "order": 38
+  },
+  {
+   "trial_id": "q_q10_B_3",
+   "set": "questions",
+   "item": "q10",
+   "cond": "B",
+   "rep": 3,
+   "order": 39
+  },
+  {
+   "trial_id": "q_q03_B_3",
+   "set": "questions",
+   "item": "q03",
+   "cond": "B",
+   "rep": 3,
+   "order": 40
+  },
+  {
+   "trial_id": "t_t1_average_D_1",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "D",
+   "rep": 1,
+   "order": 41
+  },
+  {
+   "trial_id": "q_q08_A_2",
+   "set": "questions",
+   "item": "q08",
+   "cond": "A",
+   "rep": 2,
+   "order": 42
+  },
+  {
+   "trial_id": "t_t2_slugify_C_3",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "C",
+   "rep": 3,
+   "order": 43
+  },
+  {
+   "trial_id": "q_q04_A_3",
+   "set": "questions",
+   "item": "q04",
+   "cond": "A",
+   "rep": 3,
+   "order": 44
+  },
+  {
+   "trial_id": "q_q09_A_2",
+   "set": "questions",
+   "item": "q09",
+   "cond": "A",
+   "rep": 2,
+   "order": 45
+  },
+  {
+   "trial_id": "q_q03_D_3",
+   "set": "questions",
+   "item": "q03",
+   "cond": "D",
+   "rep": 3,
+   "order": 46
+  },
+  {
+   "trial_id": "q_q04_B_3",
+   "set": "questions",
+   "item": "q04",
+   "cond": "B",
+   "rep": 3,
+   "order": 47
+  },
+  {
+   "trial_id": "t_t3_csv_clean_C_2",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "C",
+   "rep": 2,
+   "order": 48
+  },
+  {
+   "trial_id": "q_q07_B_3",
+   "set": "questions",
+   "item": "q07",
+   "cond": "B",
+   "rep": 3,
+   "order": 49
+  },
+  {
+   "trial_id": "t_t2_slugify_A_3",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "A",
+   "rep": 3,
+   "order": 50
+  },
+  {
+   "trial_id": "t_t3_csv_clean_C_3",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "C",
+   "rep": 3,
+   "order": 51
+  },
+  {
+   "trial_id": "q_q04_C_3",
+   "set": "questions",
+   "item": "q04",
+   "cond": "C",
+   "rep": 3,
+   "order": 52
+  },
+  {
+   "trial_id": "t_t1_average_B_2",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "B",
+   "rep": 2,
+   "order": 53
+  },
+  {
+   "trial_id": "q_q09_D_1",
+   "set": "questions",
+   "item": "q09",
+   "cond": "D",
+   "rep": 1,
+   "order": 54
+  },
+  {
+   "trial_id": "q_q02_D_2",
+   "set": "questions",
+   "item": "q02",
+   "cond": "D",
+   "rep": 2,
+   "order": 55
+  },
+  {
+   "trial_id": "q_q03_D_1",
+   "set": "questions",
+   "item": "q03",
+   "cond": "D",
+   "rep": 1,
+   "order": 56
+  },
+  {
+   "trial_id": "q_q05_B_2",
+   "set": "questions",
+   "item": "q05",
+   "cond": "B",
+   "rep": 2,
+   "order": 57
+  },
+  {
+   "trial_id": "t_t1_average_C_3",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "C",
+   "rep": 3,
+   "order": 58
+  },
+  {
+   "trial_id": "q_q09_D_3",
+   "set": "questions",
+   "item": "q09",
+   "cond": "D",
+   "rep": 3,
+   "order": 59
+  },
+  {
+   "trial_id": "q_q09_C_3",
+   "set": "questions",
+   "item": "q09",
+   "cond": "C",
+   "rep": 3,
+   "order": 60
+  },
+  {
+   "trial_id": "q_q10_C_2",
+   "set": "questions",
+   "item": "q10",
+   "cond": "C",
+   "rep": 2,
+   "order": 61
+  },
+  {
+   "trial_id": "q_q06_C_1",
+   "set": "questions",
+   "item": "q06",
+   "cond": "C",
+   "rep": 1,
+   "order": 62
+  },
+  {
+   "trial_id": "q_q05_C_1",
+   "set": "questions",
+   "item": "q05",
+   "cond": "C",
+   "rep": 1,
+   "order": 63
+  },
+  {
+   "trial_id": "q_q10_B_1",
+   "set": "questions",
+   "item": "q10",
+   "cond": "B",
+   "rep": 1,
+   "order": 64
+  },
+  {
+   "trial_id": "t_t2_slugify_D_3",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "D",
+   "rep": 3,
+   "order": 65
+  },
+  {
+   "trial_id": "q_q01_A_1",
+   "set": "questions",
+   "item": "q01",
+   "cond": "A",
+   "rep": 1,
+   "order": 66
+  },
+  {
+   "trial_id": "q_q02_A_1",
+   "set": "questions",
+   "item": "q02",
+   "cond": "A",
+   "rep": 1,
+   "order": 67
+  },
+  {
+   "trial_id": "q_q08_B_1",
+   "set": "questions",
+   "item": "q08",
+   "cond": "B",
+   "rep": 1,
+   "order": 68
+  },
+  {
+   "trial_id": "q_q01_B_2",
+   "set": "questions",
+   "item": "q01",
+   "cond": "B",
+   "rep": 2,
+   "order": 69
+  },
+  {
+   "trial_id": "q_q10_C_3",
+   "set": "questions",
+   "item": "q10",
+   "cond": "C",
+   "rep": 3,
+   "order": 70
+  },
+  {
+   "trial_id": "q_q01_C_2",
+   "set": "questions",
+   "item": "q01",
+   "cond": "C",
+   "rep": 2,
+   "order": 71
+  },
+  {
+   "trial_id": "q_q02_C_2",
+   "set": "questions",
+   "item": "q02",
+   "cond": "C",
+   "rep": 2,
+   "order": 72
+  },
+  {
+   "trial_id": "t_t3_csv_clean_B_3",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "B",
+   "rep": 3,
+   "order": 73
+  },
+  {
+   "trial_id": "q_q01_C_1",
+   "set": "questions",
+   "item": "q01",
+   "cond": "C",
+   "rep": 1,
+   "order": 74
+  },
+  {
+   "trial_id": "q_q07_A_2",
+   "set": "questions",
+   "item": "q07",
+   "cond": "A",
+   "rep": 2,
+   "order": 75
+  },
+  {
+   "trial_id": "q_q06_B_2",
+   "set": "questions",
+   "item": "q06",
+   "cond": "B",
+   "rep": 2,
+   "order": 76
+  },
+  {
+   "trial_id": "q_q09_C_1",
+   "set": "questions",
+   "item": "q09",
+   "cond": "C",
+   "rep": 1,
+   "order": 77
+  },
+  {
+   "trial_id": "q_q06_D_3",
+   "set": "questions",
+   "item": "q06",
+   "cond": "D",
+   "rep": 3,
+   "order": 78
+  },
+  {
+   "trial_id": "t_t3_csv_clean_A_3",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "A",
+   "rep": 3,
+   "order": 79
+  },
+  {
+   "trial_id": "t_t1_average_C_1",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "C",
+   "rep": 1,
+   "order": 80
+  },
+  {
+   "trial_id": "t_t2_slugify_A_2",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "A",
+   "rep": 2,
+   "order": 81
+  },
+  {
+   "trial_id": "q_q09_C_2",
+   "set": "questions",
+   "item": "q09",
+   "cond": "C",
+   "rep": 2,
+   "order": 82
+  },
+  {
+   "trial_id": "t_t2_slugify_D_2",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "D",
+   "rep": 2,
+   "order": 83
+  },
+  {
+   "trial_id": "q_q07_A_1",
+   "set": "questions",
+   "item": "q07",
+   "cond": "A",
+   "rep": 1,
+   "order": 84
+  },
+  {
+   "trial_id": "q_q04_C_1",
+   "set": "questions",
+   "item": "q04",
+   "cond": "C",
+   "rep": 1,
+   "order": 85
+  },
+  {
+   "trial_id": "q_q08_D_2",
+   "set": "questions",
+   "item": "q08",
+   "cond": "D",
+   "rep": 2,
+   "order": 86
+  },
+  {
+   "trial_id": "q_q03_B_2",
+   "set": "questions",
+   "item": "q03",
+   "cond": "B",
+   "rep": 2,
+   "order": 87
+  },
+  {
+   "trial_id": "q_q09_B_2",
+   "set": "questions",
+   "item": "q09",
+   "cond": "B",
+   "rep": 2,
+   "order": 88
+  },
+  {
+   "trial_id": "q_q06_C_2",
+   "set": "questions",
+   "item": "q06",
+   "cond": "C",
+   "rep": 2,
+   "order": 89
+  },
+  {
+   "trial_id": "q_q05_B_1",
+   "set": "questions",
+   "item": "q05",
+   "cond": "B",
+   "rep": 1,
+   "order": 90
+  },
+  {
+   "trial_id": "t_t1_average_A_1",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "A",
+   "rep": 1,
+   "order": 91
+  },
+  {
+   "trial_id": "q_q07_D_1",
+   "set": "questions",
+   "item": "q07",
+   "cond": "D",
+   "rep": 1,
+   "order": 92
+  },
+  {
+   "trial_id": "q_q08_D_3",
+   "set": "questions",
+   "item": "q08",
+   "cond": "D",
+   "rep": 3,
+   "order": 93
+  },
+  {
+   "trial_id": "q_q01_A_3",
+   "set": "questions",
+   "item": "q01",
+   "cond": "A",
+   "rep": 3,
+   "order": 94
+  },
+  {
+   "trial_id": "q_q01_D_3",
+   "set": "questions",
+   "item": "q01",
+   "cond": "D",
+   "rep": 3,
+   "order": 95
+  },
+  {
+   "trial_id": "q_q03_C_2",
+   "set": "questions",
+   "item": "q03",
+   "cond": "C",
+   "rep": 2,
+   "order": 96
+  },
+  {
+   "trial_id": "q_q06_B_3",
+   "set": "questions",
+   "item": "q06",
+   "cond": "B",
+   "rep": 3,
+   "order": 97
+  },
+  {
+   "trial_id": "q_q02_D_1",
+   "set": "questions",
+   "item": "q02",
+   "cond": "D",
+   "rep": 1,
+   "order": 98
+  },
+  {
+   "trial_id": "t_t2_slugify_A_1",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "A",
+   "rep": 1,
+   "order": 99
+  },
+  {
+   "trial_id": "q_q03_A_2",
+   "set": "questions",
+   "item": "q03",
+   "cond": "A",
+   "rep": 2,
+   "order": 100
+  },
+  {
+   "trial_id": "q_q10_D_2",
+   "set": "questions",
+   "item": "q10",
+   "cond": "D",
+   "rep": 2,
+   "order": 101
+  },
+  {
+   "trial_id": "q_q02_B_1",
+   "set": "questions",
+   "item": "q02",
+   "cond": "B",
+   "rep": 1,
+   "order": 102
+  },
+  {
+   "trial_id": "q_q02_B_2",
+   "set": "questions",
+   "item": "q02",
+   "cond": "B",
+   "rep": 2,
+   "order": 103
+  },
+  {
+   "trial_id": "q_q03_A_1",
+   "set": "questions",
+   "item": "q03",
+   "cond": "A",
+   "rep": 1,
+   "order": 104
+  },
+  {
+   "trial_id": "q_q10_A_2",
+   "set": "questions",
+   "item": "q10",
+   "cond": "A",
+   "rep": 2,
+   "order": 105
+  },
+  {
+   "trial_id": "t_t1_average_C_2",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "C",
+   "rep": 2,
+   "order": 106
+  },
+  {
+   "trial_id": "q_q03_C_1",
+   "set": "questions",
+   "item": "q03",
+   "cond": "C",
+   "rep": 1,
+   "order": 107
+  },
+  {
+   "trial_id": "t_t3_csv_clean_D_3",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "D",
+   "rep": 3,
+   "order": 108
+  },
+  {
+   "trial_id": "q_q10_D_3",
+   "set": "questions",
+   "item": "q10",
+   "cond": "D",
+   "rep": 3,
+   "order": 109
+  },
+  {
+   "trial_id": "q_q09_B_3",
+   "set": "questions",
+   "item": "q09",
+   "cond": "B",
+   "rep": 3,
+   "order": 110
+  },
+  {
+   "trial_id": "q_q05_A_1",
+   "set": "questions",
+   "item": "q05",
+   "cond": "A",
+   "rep": 1,
+   "order": 111
+  },
+  {
+   "trial_id": "q_q04_A_1",
+   "set": "questions",
+   "item": "q04",
+   "cond": "A",
+   "rep": 1,
+   "order": 112
+  },
+  {
+   "trial_id": "q_q01_D_1",
+   "set": "questions",
+   "item": "q01",
+   "cond": "D",
+   "rep": 1,
+   "order": 113
+  },
+  {
+   "trial_id": "q_q05_C_2",
+   "set": "questions",
+   "item": "q05",
+   "cond": "C",
+   "rep": 2,
+   "order": 114
+  },
+  {
+   "trial_id": "q_q01_B_3",
+   "set": "questions",
+   "item": "q01",
+   "cond": "B",
+   "rep": 3,
+   "order": 115
+  },
+  {
+   "trial_id": "q_q02_D_3",
+   "set": "questions",
+   "item": "q02",
+   "cond": "D",
+   "rep": 3,
+   "order": 116
+  },
+  {
+   "trial_id": "q_q03_C_3",
+   "set": "questions",
+   "item": "q03",
+   "cond": "C",
+   "rep": 3,
+   "order": 117
+  },
+  {
+   "trial_id": "q_q07_D_2",
+   "set": "questions",
+   "item": "q07",
+   "cond": "D",
+   "rep": 2,
+   "order": 118
+  },
+  {
+   "trial_id": "q_q06_D_2",
+   "set": "questions",
+   "item": "q06",
+   "cond": "D",
+   "rep": 2,
+   "order": 119
+  },
+  {
+   "trial_id": "q_q02_A_3",
+   "set": "questions",
+   "item": "q02",
+   "cond": "A",
+   "rep": 3,
+   "order": 120
+  },
+  {
+   "trial_id": "t_t1_average_B_1",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "B",
+   "rep": 1,
+   "order": 121
+  },
+  {
+   "trial_id": "q_q05_A_3",
+   "set": "questions",
+   "item": "q05",
+   "cond": "A",
+   "rep": 3,
+   "order": 122
+  },
+  {
+   "trial_id": "q_q07_D_3",
+   "set": "questions",
+   "item": "q07",
+   "cond": "D",
+   "rep": 3,
+   "order": 123
+  },
+  {
+   "trial_id": "q_q04_D_3",
+   "set": "questions",
+   "item": "q04",
+   "cond": "D",
+   "rep": 3,
+   "order": 124
+  },
+  {
+   "trial_id": "q_q05_A_2",
+   "set": "questions",
+   "item": "q05",
+   "cond": "A",
+   "rep": 2,
+   "order": 125
+  },
+  {
+   "trial_id": "t_t2_slugify_B_3",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "B",
+   "rep": 3,
+   "order": 126
+  },
+  {
+   "trial_id": "t_t2_slugify_C_2",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "C",
+   "rep": 2,
+   "order": 127
+  },
+  {
+   "trial_id": "q_q08_A_1",
+   "set": "questions",
+   "item": "q08",
+   "cond": "A",
+   "rep": 1,
+   "order": 128
+  },
+  {
+   "trial_id": "t_t1_average_B_3",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "B",
+   "rep": 3,
+   "order": 129
+  },
+  {
+   "trial_id": "q_q09_D_2",
+   "set": "questions",
+   "item": "q09",
+   "cond": "D",
+   "rep": 2,
+   "order": 130
+  },
+  {
+   "trial_id": "t_t3_csv_clean_A_2",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "A",
+   "rep": 2,
+   "order": 131
+  },
+  {
+   "trial_id": "q_q10_A_1",
+   "set": "questions",
+   "item": "q10",
+   "cond": "A",
+   "rep": 1,
+   "order": 132
+  },
+  {
+   "trial_id": "t_t3_csv_clean_C_1",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "C",
+   "rep": 1,
+   "order": 133
+  },
+  {
+   "trial_id": "t_t3_csv_clean_A_1",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "A",
+   "rep": 1,
+   "order": 134
+  },
+  {
+   "trial_id": "t_t3_csv_clean_D_2",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "D",
+   "rep": 2,
+   "order": 135
+  },
+  {
+   "trial_id": "q_q08_C_3",
+   "set": "questions",
+   "item": "q08",
+   "cond": "C",
+   "rep": 3,
+   "order": 136
+  },
+  {
+   "trial_id": "t_t3_csv_clean_D_1",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "D",
+   "rep": 1,
+   "order": 137
+  },
+  {
+   "trial_id": "q_q04_D_2",
+   "set": "questions",
+   "item": "q04",
+   "cond": "D",
+   "rep": 2,
+   "order": 138
+  },
+  {
+   "trial_id": "t_t3_csv_clean_B_1",
+   "set": "tasks",
+   "item": "t3_csv_clean",
+   "cond": "B",
+   "rep": 1,
+   "order": 139
+  },
+  {
+   "trial_id": "t_t2_slugify_D_1",
+   "set": "tasks",
+   "item": "t2_slugify",
+   "cond": "D",
+   "rep": 1,
+   "order": 140
+  },
+  {
+   "trial_id": "q_q02_C_3",
+   "set": "questions",
+   "item": "q02",
+   "cond": "C",
+   "rep": 3,
+   "order": 141
+  },
+  {
+   "trial_id": "q_q05_D_2",
+   "set": "questions",
+   "item": "q05",
+   "cond": "D",
+   "rep": 2,
+   "order": 142
+  },
+  {
+   "trial_id": "q_q06_D_1",
+   "set": "questions",
+   "item": "q06",
+   "cond": "D",
+   "rep": 1,
+   "order": 143
+  },
+  {
+   "trial_id": "q_q01_C_3",
+   "set": "questions",
+   "item": "q01",
+   "cond": "C",
+   "rep": 3,
+   "order": 144
+  },
+  {
+   "trial_id": "q_q03_B_1",
+   "set": "questions",
+   "item": "q03",
+   "cond": "B",
+   "rep": 1,
+   "order": 145
+  },
+  {
+   "trial_id": "q_q04_B_2",
+   "set": "questions",
+   "item": "q04",
+   "cond": "B",
+   "rep": 2,
+   "order": 146
+  },
+  {
+   "trial_id": "q_q05_C_3",
+   "set": "questions",
+   "item": "q05",
+   "cond": "C",
+   "rep": 3,
+   "order": 147
+  },
+  {
+   "trial_id": "t_t1_average_A_2",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "A",
+   "rep": 2,
+   "order": 148
+  },
+  {
+   "trial_id": "q_q06_B_1",
+   "set": "questions",
+   "item": "q06",
+   "cond": "B",
+   "rep": 1,
+   "order": 149
+  },
+  {
+   "trial_id": "q_q05_B_3",
+   "set": "questions",
+   "item": "q05",
+   "cond": "B",
+   "rep": 3,
+   "order": 150
+  },
+  {
+   "trial_id": "q_q01_D_2",
+   "set": "questions",
+   "item": "q01",
+   "cond": "D",
+   "rep": 2,
+   "order": 151
+  },
+  {
+   "trial_id": "t_t1_average_D_3",
+   "set": "tasks",
+   "item": "t1_average",
+   "cond": "D",
+   "rep": 3,
+   "order": 152
+  },
+  {
+   "trial_id": "q_q02_C_1",
+   "set": "questions",
+   "item": "q02",
+   "cond": "C",
+   "rep": 1,
+   "order": 153
+  },
+  {
+   "trial_id": "q_q09_A_1",
+   "set": "questions",
+   "item": "q09",
+   "cond": "A",
+   "rep": 1,
+   "order": 154
+  },
+  {
+   "trial_id": "q_q06_A_2",
+   "set": "questions",
+   "item": "q06",
+   "cond": "A",
+   "rep": 2,
+   "order": 155
+  },
+  {
+   "trial_id": "q_q07_C_1",
+   "set": "questions",
+   "item": "q07",
+   "cond": "C",
+   "rep": 1,
+   "order": 156
+  }
+ ]
+}

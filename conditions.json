@@ -1,0 +1,9 @@
+{
+  "_about": "Conditions compared by run_trials.py. Same question, only the condition changes. Edit or add your own.",
+  "conditions": [
+    {"id": "A", "name": "baseline", "label": "No instruction", "prefix": "", "skill": null, "activate": null, "status_expect": null},
+    {"id": "B", "name": "concise", "label": "\"간결하게 답해.\" (Answer concisely.)", "prefix": "간결하게 답해.\n", "skill": null, "activate": null, "status_expect": null},
+    {"id": "C", "name": "caveman", "label": "/caveman skill (project skill)", "prefix": "", "skill": "caveman", "activate": "/caveman", "status_expect": "Caveman mode:\\s*caveman\\b"},
+    {"id": "D", "name": "ultracave", "label": "/ultracave skill (project skill)", "prefix": "", "skill": "ultracave", "activate": "/ultracave", "status_expect": "Caveman mode:\\s*(ultracave|ultra)\\b"}
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "_about": "Question set. Scoring is deterministic (score.py): every group in `required` must match at least one of its words (case-insensitive substring), and no `forbidden` regex may match. Write the criteria BEFORE you measure and do not tune them after seeing answers.",
+  "questions": [
+    {
+      "id": "q01",
+      "prompt": "파이썬에서 리스트와 튜플의 차이를 알려줘.",
+      "required": [
+        [
+          "불변",
+          "immutable",
+          "변경할 수 없",
+          "수정할 수 없",
+          "바꿀 수 없",
+          "변경 불가",
+          "수정 불가"
+        ],
+        [
+          "가변",
+          "mutable",
+          "변경할 수 있",
+          "수정할 수 있",
+          "바꿀 수 있",
+          "변경 가능",
+          "수정 가능"
+        ]
+      ],
+      "forbidden": [
+        "튜플(은|는)\\s*(가변|mutable)\\s*(이다|입니다|이에요|자료형|\\(mutable\\))",
+        "리스트(는|은)\\s*(불변|immutable)\\s*(이다|입니다|이에요|자료형|\\(immutable\\))"
+      ]
+    },
+    {
+      "id": "q02",
+      "prompt": "git에서 merge와 rebase의 차이를 알려줘.",
+      "required": [
+        [
+          "merge commit",
+          "머지 커밋",
+          "병합 커밋",
+          "병합 commit",
+          "merge 커밋"
+        ],
+        [
+          "다시 적용",
+          "재적용",
+          "옮겨",
+          "새 커밋",
+          "다시 쌓",
+          "replay",
+          "위로",
+          "재작성",
+          "다시 써",
+          "rewrite",
+          "새로 만"
+        ]
+      ],
+      "forbidden": []
+    },
+    {
+      "id": "q03",
+      "prompt": "HTTP 상태 코드 401과 403의 차이를 알려줘.",
+      "required": [
+        [
+          "인증",
+          "authentication",
+          "authenticat",
+          "unauthenticated",
+          "로그인"
+        ],
+        [
+          "권한",
+          "authorization",
+          "authoriz",
+          "허가",
+          "forbidden",
+          "인가"
+        ]
+      ],
+      "forbidden": [
+        "401\\s*(은|는|:|=)?\\s*(권한|인가|forbidden)",
+        "403\\s*(은|는|:|=)?\\s*(인증|로그인|unauthorized)"
+      ]
+    },
+    {
+      "id": "q04",
+      "prompt": "SQL에서 INNER JOIN과 LEFT JOIN의 차이를 알려줘.",
+      "required": [
+        [
+          "양쪽",
+          "두 테이블 모두",
+          "모두 있는",
+          "일치하는",
+          "매칭",
+          "교집합",
+          "조건에 맞는",
+          "match"
+        ],
+        [
+          "null",
+          "널"
+        ]
+      ],
+      "forbidden": []
+    },
+    {
+      "id": "q05",
+      "prompt": "자바스크립트에서 ==와 ===의 차이를 알려줘.",
+      "required": [
+        [
+          "타입 변환",
+          "형 변환",
+          "형변환",
+          "강제 변환",
+          "coercion",
+          "타입을 변환",
+          "타입을 맞춘",
+          "타입을 바꿔",
+          "타입을 바꾼"
+        ],
+        [
+          "타입까지",
+          "타입도",
+          "타입과 값",
+          "값과 타입",
+          "엄격",
+          "strict",
+          "타입이 다르면"
+        ]
+      ],
+      "forbidden": [
+        "===\\s*(은|는)?\\s*(타입|형)\\s*변환(을|이)?\\s*(한다|해|합니다)"
+      ]
+    },
+    {
+      "id": "q06",
+      "prompt": "프로세스와 스레드의 차이를 알려줘.",
+      "required": [
+        [
+          "메모리",
+          "주소 공간",
+          "address space",
+          "힙",
+          "heap"
+        ],
+        [
+          "공유",
+          "share"
+        ]
+      ],
+      "forbidden": [
+        "프로세스(끼리|들은|는)\\s*(같은\\s*)?메모리를\\s*공유(한다|합니다|해요)"
+      ]
+    },
+    {
+      "id": "q07",
+      "prompt": "도커에서 이미지와 컨테이너의 차이를 알려줘.",
+      "required": [
+        [
+          "실행 중인",
+          "실행된",
+          "실행한",
+          "인스턴스",
+          "instance",
+          "running",
+          "돌아가는",
+          "띄운"
+        ],
+        [
+          "템플릿",
+          "template",
+          "읽기 전용",
+          "read-only",
+          "설계도",
+          "청사진",
+          "blueprint",
+          "스냅샷",
+          "틀"
+        ]
+      ],
+      "forbidden": []
+    },
+    {
+      "id": "q08",
+      "prompt": "REST API에서 PUT과 PATCH의 차이를 알려줘.",
+      "required": [
+        [
+          "전체",
+          "통째",
+          "replace",
+          "교체",
+          "대체",
+          "통으로"
+        ],
+        [
+          "일부",
+          "부분",
+          "partial",
+          "바꿀 필드만",
+          "필드만"
+        ]
+      ],
+      "forbidden": [
+        "patch\\s*(는|은)\\s*(리소스\\s*)?전체(를)?\\s*(교체|대체|바꿔|바꾼|덮어)",
+        "put\\s*(은|는)\\s*(리소스의\\s*)?(일부|부분)(만)?\\s*(수정|변경|바꿔|바꾼)"
+      ]
+    },
+    {
+      "id": "q09",
+      "prompt": "파이썬 asyncio 코드에서 time.sleep 대신 asyncio.sleep을 써야 하는 이유를 알려줘.",
+      "required": [
+        [
+          "이벤트 루프",
+          "event loop",
+          "루프"
+        ],
+        [
+          "블록",
+          "블로킹",
+          "blocking",
+          "block",
+          "막아",
+          "막는",
+          "막습",
+          "멈춰",
+          "멈추",
+          "멈춥",
+          "멈춘"
+        ]
+      ],
+      "forbidden": []
+    },
+    {
+      "id": "q10",
+      "prompt": "정규표현식에서 탐욕적(greedy) 수량자와 게으른(lazy) 수량자의 차이를 알려줘.",
+      "required": [
+        [
+          "가능한 한 많이",
+          "가능한 많이",
+          "최대한 많이",
+          "최대한 길게",
+          "가장 길게",
+          "길게",
+          "최대",
+          "longest",
+          "as much",
+          "as many"
+        ],
+        [
+          "*?",
+          "+?",
+          "가능한 한 적게",
+          "가능한 적게",
+          "최소한",
+          "최대한 짧게",
+          "가장 짧게",
+          "짧게",
+          "최소",
+          "shortest",
+          "as few",
+          "as little"
+        ]
+      ],
+      "forbidden": []
+    }
+  ]
+}

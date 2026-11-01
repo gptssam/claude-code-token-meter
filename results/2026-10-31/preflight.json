@@ -1,0 +1,18 @@
+[
+ {
+  "cond": "C",
+  "skill": "caveman",
+  "activate_reply": "Terse mode on until you say \"stop caveman\" or \"normal mode\". What's the task?",
+  "status_reply": "Caveman mode: caveman (not tracked by this host)",
+  "expect": "Caveman mode:\\s*caveman\\b",
+  "pass": true
+ },
+ {
+  "cond": "D",
+  "skill": "ultracave",
+  "activate_reply": "Ultracave on. What task?",
+  "status_reply": "Caveman mode: ultra (not tracked by this host)",
+  "expect": "Caveman mode:\\s*(ultracave|ultra)\\b",
+  "pass": true
+ }
+]

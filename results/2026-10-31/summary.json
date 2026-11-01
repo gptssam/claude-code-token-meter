@@ -1,0 +1,460 @@
+{
+ "questions": {
+  "conditions": {
+   "A": {
+    "label": "No instruction",
+    "runs": 30,
+    "errors": 0,
+    "output_tokens": {
+     "n": 30,
+     "median": 1100.0,
+     "mean": 1072.9,
+     "min": 618,
+     "max": 1612
+    },
+    "thinking_tokens": {
+     "n": 30,
+     "median": 0.0,
+     "mean": 6.9,
+     "min": 0,
+     "max": 19
+    },
+    "answer_chars": {
+     "n": 30,
+     "median": 1353.5,
+     "mean": 1365.7,
+     "min": 740,
+     "max": 2141
+    },
+    "input_total": {
+     "n": 30,
+     "median": 2840.0,
+     "mean": 2843.6,
+     "min": 2832,
+     "max": 2863
+    },
+    "duration_s": {
+     "n": 30,
+     "median": 11.6385,
+     "mean": 12.0,
+     "min": 7.424,
+     "max": 16.504
+    },
+    "cost_usd_sum": 1.1741,
+    "activation_cost_usd_sum": 0,
+    "correct": 29,
+    "scored": 30,
+    "median_out_vs_A_pct": null,
+    "median_out_vs_B_pct": null
+   },
+   "B": {
+    "label": "\"간결하게 답해.\" (Answer concisely.)",
+    "runs": 30,
+    "errors": 0,
+    "output_tokens": {
+     "n": 30,
+     "median": 335.0,
+     "mean": 339.9,
+     "min": 191,
+     "max": 551
+    },
+    "thinking_tokens": {
+     "n": 30,
+     "median": 0.0,
+     "mean": 0,
+     "min": 0,
+     "max": 0
+    },
+    "answer_chars": {
+     "n": 30,
+     "median": 428.5,
+     "mean": 421.0,
+     "min": 223,
+     "max": 832
+    },
+    "input_total": {
+     "n": 30,
+     "median": 2849.0,
+     "mean": 2852.4,
+     "min": 2839,
+     "max": 2874
+    },
+    "duration_s": {
+     "n": 30,
+     "median": 5.5835,
+     "mean": 5.6,
+     "min": 4.113,
+     "max": 8.132
+    },
+    "cost_usd_sum": 0.7364,
+    "activation_cost_usd_sum": 0,
+    "correct": 30,
+    "scored": 30,
+    "median_out_vs_A_pct": -69.5,
+    "median_out_vs_B_pct": null
+   },
+   "C": {
+    "label": "/caveman skill (project skill)",
+    "runs": 30,
+    "errors": 0,
+    "output_tokens": {
+     "n": 30,
+     "median": 571.0,
+     "mean": 584.8,
+     "min": 283,
+     "max": 1044
+    },
+    "thinking_tokens": {
+     "n": 30,
+     "median": 18.5,
+     "mean": 31.3,
+     "min": 0,
+     "max": 166
+    },
+    "answer_chars": {
+     "n": 30,
+     "median": 659.0,
+     "mean": 708.9,
+     "min": 317,
+     "max": 1286
+    },
+    "input_total": {
+     "n": 30,
+     "median": 4612.5,
+     "mean": 4613.2,
+     "min": 4552,
+     "max": 4702
+    },
+    "duration_s": {
+     "n": 30,
+     "median": 7.322,
+     "mean": 7.4,
+     "min": 4.313,
+     "max": 12.163
+    },
+    "cost_usd_sum": 1.4016,
+    "activation_cost_usd_sum": 0.9698,
+    "correct": 30,
+    "scored": 30,
+    "median_out_vs_A_pct": -48.1,
+    "median_out_vs_B_pct": 70.4
+   },
+   "D": {
+    "label": "/ultracave skill (project skill)",
+    "runs": 30,
+    "errors": 0,
+    "output_tokens": {
+     "n": 30,
+     "median": 499.5,
+     "mean": 486.0,
+     "min": 219,
+     "max": 768
+    },
+    "thinking_tokens": {
+     "n": 30,
+     "median": 29.0,
+     "mean": 27.6,
+     "min": 13,
+     "max": 40
+    },
+    "answer_chars": {
+     "n": 30,
+     "median": 610.5,
+     "mean": 595.0,
+     "min": 305,
+     "max": 895
+    },
+    "input_total": {
+     "n": 30,
+     "median": 3753.0,
+     "mean": 3758.9,
+     "min": 3742,
+     "max": 3798
+    },
+    "duration_s": {
+     "n": 30,
+     "median": 6.637499999999999,
+     "mean": 6.7,
+     "min": 3.899,
+     "max": 9.288
+    },
+    "cost_usd_sum": 1.1421,
+    "activation_cost_usd_sum": 0.7478,
+    "correct": 30,
+    "scored": 30,
+    "median_out_vs_A_pct": -54.6,
+    "median_out_vs_B_pct": 49.1
+   }
+  },
+  "per_item_median_output": {
+   "q01": {
+    "A": 1184,
+    "B": 389,
+    "C": 832,
+    "D": 545
+   },
+   "q02": {
+    "A": 1246,
+    "B": 309,
+    "C": 595,
+    "D": 494
+   },
+   "q03": {
+    "A": 692,
+    "B": 207,
+    "C": 304,
+    "D": 302
+   },
+   "q04": {
+    "A": 1104,
+    "B": 341,
+    "C": 488,
+    "D": 497
+   },
+   "q05": {
+    "A": 727,
+    "B": 281,
+    "C": 351,
+    "D": 261
+   },
+   "q06": {
+    "A": 917,
+    "B": 425,
+    "C": 545,
+    "D": 663
+   },
+   "q07": {
+    "A": 1051,
+    "B": 237,
+    "C": 566,
+    "D": 457
+   },
+   "q08": {
+    "A": 1081,
+    "B": 419,
+    "C": 748,
+    "D": 592
+   },
+   "q09": {
+    "A": 1543,
+    "B": 446,
+    "C": 848,
+    "D": 567
+   },
+   "q10": {
+    "A": 1131,
+    "B": 335,
+    "C": 605,
+    "D": 551
+   }
+  }
+ },
+ "tasks": {
+  "conditions": {
+   "A": {
+    "label": "No instruction",
+    "runs": 9,
+    "errors": 0,
+    "output_tokens": {
+     "n": 9,
+     "median": 863,
+     "mean": 1029.1,
+     "min": 782,
+     "max": 1566
+    },
+    "thinking_tokens": {
+     "n": 9,
+     "median": 40,
+     "mean": 81.6,
+     "min": 0,
+     "max": 269
+    },
+    "answer_chars": {
+     "n": 9,
+     "median": 447,
+     "mean": 460.2,
+     "min": 354,
+     "max": 626
+    },
+    "input_total": {
+     "n": 9,
+     "median": 70691,
+     "mean": 63285.9,
+     "min": 52897,
+     "max": 72146
+    },
+    "duration_s": {
+     "n": 9,
+     "median": 14.501,
+     "mean": 16.5,
+     "min": 11.526,
+     "max": 26.026
+    },
+    "cost_usd_sum": 0.7876,
+    "activation_cost_usd_sum": 0,
+    "correct": 9,
+    "scored": 9,
+    "median_out_vs_A_pct": null,
+    "median_out_vs_B_pct": null
+   },
+   "B": {
+    "label": "\"간결하게 답해.\" (Answer concisely.)",
+    "runs": 9,
+    "errors": 0,
+    "output_tokens": {
+     "n": 9,
+     "median": 677,
+     "mean": 714.7,
+     "min": 479,
+     "max": 976
+    },
+    "thinking_tokens": {
+     "n": 9,
+     "median": 31,
+     "mean": 67.8,
+     "min": 0,
+     "max": 159
+    },
+    "answer_chars": {
+     "n": 9,
+     "median": 277,
+     "mean": 270,
+     "min": 196,
+     "max": 337
+    },
+    "input_total": {
+     "n": 9,
+     "median": 53360,
+     "mean": 60827.3,
+     "min": 52665,
+     "max": 71036
+    },
+    "duration_s": {
+     "n": 9,
+     "median": 12.85,
+     "mean": 12.8,
+     "min": 9.434,
+     "max": 16.414
+    },
+    "cost_usd_sum": 0.7073,
+    "activation_cost_usd_sum": 0,
+    "correct": 9,
+    "scored": 9,
+    "median_out_vs_A_pct": -21.6,
+    "median_out_vs_B_pct": null
+   },
+   "C": {
+    "label": "/caveman skill (project skill)",
+    "runs": 9,
+    "errors": 0,
+    "output_tokens": {
+     "n": 9,
+     "median": 895,
+     "mean": 897.4,
+     "min": 672,
+     "max": 1121
+    },
+    "thinking_tokens": {
+     "n": 9,
+     "median": 55,
+     "mean": 55.6,
+     "min": 13,
+     "max": 90
+    },
+    "answer_chars": {
+     "n": 9,
+     "median": 435,
+     "mean": 412.8,
+     "min": 305,
+     "max": 501
+    },
+    "input_total": {
+     "n": 9,
+     "median": 77939,
+     "mean": 73808.8,
+     "min": 58612,
+     "max": 78493
+    },
+    "duration_s": {
+     "n": 9,
+     "median": 16.171,
+     "mean": 15.7,
+     "min": 12.006,
+     "max": 18.791
+    },
+    "cost_usd_sum": 1.0835,
+    "activation_cost_usd_sum": 0.579,
+    "correct": 9,
+    "scored": 9,
+    "median_out_vs_A_pct": 3.7,
+    "median_out_vs_B_pct": 32.2
+   },
+   "D": {
+    "label": "/ultracave skill (project skill)",
+    "runs": 9,
+    "errors": 0,
+    "output_tokens": {
+     "n": 9,
+     "median": 798,
+     "mean": 824.7,
+     "min": 620,
+     "max": 1088
+    },
+    "thinking_tokens": {
+     "n": 9,
+     "median": 52,
+     "mean": 68.3,
+     "min": 12,
+     "max": 175
+    },
+    "answer_chars": {
+     "n": 9,
+     "median": 269,
+     "mean": 311.2,
+     "min": 187,
+     "max": 509
+    },
+    "input_total": {
+     "n": 9,
+     "median": 74607,
+     "mean": 74490.9,
+     "min": 55593,
+     "max": 93304
+    },
+    "duration_s": {
+     "n": 9,
+     "median": 15.29,
+     "mean": 15.1,
+     "min": 11.493,
+     "max": 18.909
+    },
+    "cost_usd_sum": 1.0239,
+    "activation_cost_usd_sum": 0.5085,
+    "correct": 9,
+    "scored": 9,
+    "median_out_vs_A_pct": -7.5,
+    "median_out_vs_B_pct": 17.9
+   }
+  },
+  "per_item_median_output": {
+   "t1_average": {
+    "A": 855,
+    "B": 677,
+    "C": 695,
+    "D": 752
+   },
+   "t2_slugify": {
+    "A": 1397,
+    "B": 910,
+    "C": 1103,
+    "D": 883
+   },
+   "t3_csv_clean": {
+    "A": 787,
+    "B": 563,
+    "C": 895,
+    "D": 747
+   }
+  }
+ }
+}
